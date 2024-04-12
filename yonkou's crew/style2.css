@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color:rgb(34, 34, 34);
+    font-family: 'Times New Roman';
+}
+
+.yonkou-title{
+    padding-left: 1rem;
+}
+
+.container-title{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    position: fixed;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0px 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:aquamarine;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/new-yonko-one-piece.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    background-color:black;
+    font-family:'Times New Roman';
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10rem;
+}
+
+.img h2{
+    justify-content: center;
+    text-align: center;
+
+}
+.img{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    color:white;
+    font-family: 'Franklin Gothic Medium';
+}
